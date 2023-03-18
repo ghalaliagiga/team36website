@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #a6cced;
+  --color-primary: #7698b5;
   --color-secondary: #f85a40;
 }
 
@@ -1365,6 +1365,7 @@ section {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
+
 .team .member {
   text-align: center;
   background: #fff;
