@@ -724,6 +724,7 @@ section {
   transform: scale(20);
 }
 
+
 @keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
