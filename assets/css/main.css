@@ -36,6 +36,12 @@ main p {
   text-align: left !important;
 }
 
+main li {
+  text-align: left !important;
+  color: #6f6f6f;
+}
+
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -1121,6 +1127,7 @@ section {
   text-align: center;
 }
 
+
 .portfolio .portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -1150,6 +1157,62 @@ section {
     font-size: 14px;
     margin: 0 5px;
   }
+}
+
+/* Reset list styles */
+ol, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ordered list styles */
+ol {
+  counter-reset: li;
+}
+
+ol > li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+ol > li:before {
+  content: counter(li) '.';
+  counter-increment: li;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Unordered list styles */
+ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+ul li:not(.navbar li):before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Nested list styles */
+ol > li > ol, ol > li > ul, ul > li > ol, ul > li > ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+code {
+  background-color: #f5e6e7;
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 .portfolio .portfolio-wrap {
