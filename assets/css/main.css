@@ -757,6 +757,10 @@ section {
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
+.clients img{
+  width:90px
+}
+
 .clients {
   padding: 40px 0;
 }
@@ -2742,4 +2746,23 @@ code {
 
 .footer .credits a {
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Extra Personas and Scenarios
+--------------------------------------------------------------*/
+
+
+.flex-parent-element {
+  display: flex;
+  width: 100%;
+}
+
+.flex-child-element {
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-child-element:first-child {
+  margin-right: 20px;
 }
