@@ -34,6 +34,7 @@
 --------------------------------------------------------------*/
 main p {
   text-align: left !important;
+  font-size: large;
 }
 
 main li {
