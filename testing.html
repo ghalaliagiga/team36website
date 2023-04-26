@@ -4,19 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Impact Bootstrap Template - Index</title>
+  <title>MotionInput for CAD</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/icon.png" rel="icon">
+  <link href="assets/img/icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,9 +25,11 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/prism.css">
+
 
   <!-- =======================================================
   * Template Name: Impact
@@ -44,10 +47,12 @@
 
   <header id="header" class="header d-flex align-items-center">
 
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl d-flex align-items-center
+        justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="">
+        <img src="assets/img/icon.png" alt="">
+
         <h1>MotionInput for CAD<span>.</span></h1>
       </a>
       <nav id="navbar" class="navbar">
@@ -70,10 +75,12 @@
   </header><!-- End Header -->
   <!-- End Header -->
 
+
   <section id="hero" class="hero">
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column
+            justify-content-center text-center text-lg-start">
           <br><br>
           <h2>Testing</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
@@ -95,154 +102,631 @@
   </section>
   <!-- End Hero Section -->
 
-  <main id="main">\
-    
-
-    <!-- ======= Limited dictionaries ======= -->
+  <main id="main">
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Limited dictionaries</h2>
-          <p>
-
-            During the process of testing our program on both Autocad and Sketchup,
-             we encountered some obstacles related to speech recognition. The issues 
-             we faced included the program often detecting incorrect words or picking 
-             up a lot of background noise, making it more challenging to use. To overcome 
-             these challenges, we decided to create specific dictionaries for each software
-              that we used. For example, we developed a Sketchup-specific dictionary that 
-              only contained words necessary for the softwares features. This approach 
-              allowed us to map other words to 'unk,' which prevented the program from 
-              misinterpreting them. We also found that the detection of specific commands 
-              became more accurate by mapping words like 'orbiting'
-              to 'orbit,' providing users with greater flexibility in their use of 
-                speech commands.
-                <br><br>
-            One of the main advantages of developing these separate dictionaries is 
-            that you can easily switch between them. For instance, users can change 
-            dictionaries by saying "switch dictionary Autocad." Additionally, since 
-            Autocad and Tinkercad have different lists of features, creating separate
-            dictionaries for each software helped to increase accuracy in the use of
-            speech commands. After implementing these measures, we observed a 
-            significant improvement in program performance, with a 35% increase 
-            in accuracy, and almost all words were accurately detected. 
-            The overall operation of the program also became much smoother, 
-            providing a more seamless user experience.
-            <br><br>
-        </p>
-
-        </div>
-        </div>
-            <!-- ======= Facial calibration ======= -->
-    <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Facial calibration</h2>
-            <p>
-                During our testing phase, we encountered a problem related to the 
-                accuracy of our facial navigation feature. It was only successful 
-                in accurately identifying 20% of the users, as it was unresponsive 
-                for some while being overly sensitive for others. This made it 
-                challenging to use, and we realised that it required a performance
-                 boost to improve user experience.
-
-                To address this issue, we decided to implement the facial calibration
-                 feature to tailor facial navigation specifically to the user's face. 
-                 The primary objective of this feature is to simplify the facial
-                  navigation process by ensuring that the program is accurately
-                   calibrated for each individual's unique facial features.
-                
-                This feature includes a series of screens that prompt users to move 
-                certain parts of their face, which are typically used in facial 
-                navigation. This calibration process helps the program adjust its 
-                sensitivity levels based on the scope of the user's facial expressions, 
-                making it more precise and accurate.
-                
-               
-                  <br><br>
-                  During the implementation of the facial calibration feature, we 
-                  encountered a few challenges during its execution. Firstly, during 
-                  the calibration process, the program required the user to look all 
-                  the way to the side, which prevented them from seeing if the screen 
-                  had changed yet. However, we later discovered that the feature 
-                  included a sound notification that indicated the completion of each
-                   mode of calibration. This sound made it easier for the user to
-                    track their progress during the calibration process and eliminated 
-                    the issue of not being able to see the screen.
-                
-                  However, after successfully calibrating the facial navigation feature, 
-                  we discovered that some of its functions, such as dragging, became 
-                  more difficult to use. Additionally, the fps (frames per second) 
-                  dropped, which caused navigation to become less smooth. This decrease
-                   in functionality and usability could make the feature impractical 
-                   to use in architectural CAD software.
-                  
-                  Overall, although there are some places that need improvement, facial
-                   navigation became 2x more accurate than before.
-                    speech commands.
-              <br><br>
-          </p>
-          <br>
-          <br>
-          </div>
-          </div>
-
-        
-
-
-
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-out">
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-        </div>
-
       </div>
-    </section><!-- End Clients Section -->
 
-   
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Testing Strategy</h2>
+          <p>We have developed a comprehensive testing strategy that encompasses various aspects of the system.
+            Specifically, we plan to conduct unit testing for the backend, user acceptance testing to evaluate the user
+            experience, and performance testing to assess the system's efficiency and speed.</p>
+          <br>
+          <hr><br>
+          <h3>Unit Tests</h3>
+          <p>Unit testing was essential to ensure that our code functions as intended. In this
+            particular case, the <code>unittest</code> module is being used to test the <code>CadEditor</code> class and
+            its methods. This
+            particular class has been chosen to test as it directly edits JSON making it simple to check if the unit
+            test has passed or failed. It
+            is important to note that only this class is being unit tested as our other functionality requires user
+            inputs and is more suitable for user acceptance testing.</p>
+          <br>
+          <p>We developed nine unit tests to ensure that every function in <code>cad.json</code> was thoroughly covered.
+            By
+            creating a comprehensive suite of unit tests, we can be confident that each function in
+            <code>cad.json</code> is
+            functioning correctly and that any changes or updates made to the codebase will not cause unexpected issues
+            or bugs. Every test case has passed indicating that our JSON has been edited as intended.
+          </p>
+          <pre><code class="language-python">class TestCadEditor(unittest.TestCase):
+    def setUp(self):
+        self.cad_editor = CadEditor()
+        
+    def test_change_tinkercad_align_phrase(self):
+        # Change a phrase for the "align" command in Tinkercad
+        self.cad_editor.change_phrase("tinkercad", "align", "align objects")
+        updated_phrase = self.cad_editor.event_editor.get_data("speech_hotkey_tinkercad_align/args/phrase")
+        self.assertEqual(updated_phrase, "align objects")
+
+    def test_change_sketchup_circle_phrase(self):
+        # Change a phrase for the "circle" command in SketchUp
+        self.cad_editor.change_phrase("sketchup", "circle", "draw circle")
+        updated_phrase = self.cad_editor.event_editor.get_data("speech_hotkey_sketchup_circle/args/phrase")
+        self.assertEqual(updated_phrase, "draw circle")
+
+    def test_change_cad_select_all_phrase(self):
+        # Change a phrase for the "select_all" command in CAD universal program
+        self.cad_editor.change_phrase("cad", "select_all", "select everything")
+        updated_phrase = self.cad_editor.event_editor.get_data("speech_hotkey_cad_select_all/args/phrase")
+        self.assertEqual(updated_phrase, "select everything")
+
+    def test_update_cad_phrases_tinkercad(self):
+        # Update multiple phrases for Tinkercad
+        new_commands = {
+            "align": "align new",
+            "drop": "drop new",
+            "flip": "flip new"
+        }
+
+        self.cad_editor.update_cad_phrases("tinkercad", new_commands)
+
+        for command_name, phrase in new_commands.items():
+            updated_phrase = self.cad_editor.event_editor.get_data(f"speech_hotkey_tinkercad_{command_name}/args/phrase")
+            self.assertEqual(updated_phrase, phrase)
+
+    def test_update_cad_phrases_sketchup(self):
+        # Update multiple phrases for SketchUp
+        new_commands = {
+            "line": "draw line",
+            "rectangle": "draw rectangle",
+            "circle": "draw circle"
+        }
+
+        self.cad_editor.update_cad_phrases("sketchup", new_commands)
+
+        for command_name, phrase in new_commands.items():
+            updated_phrase = self.cad_editor.event_editor.get_data(f"speech_hotkey_sketchup_{command_name}/args/phrase")
+            self.assertEqual(updated_phrase, phrase)
+
+    def test_update_cad_phrases_cad(self):
+        # Update multiple phrases for universal commands
+        new_commands = {
+            "select_all": "select all objects",
+        }
+
+        self.cad_editor.update_cad_phrases("cad", new_commands)
+
+        for command_name, phrase in new_commands.items():
+            updated_phrase = self.cad_editor.event_editor.get_data(f"speech_hotkey_cad_{command_name}/args/phrase")
+            self.assertEqual(updated_phrase, phrase)
+
+    def test_update_in_current_mode_with_current_program_phrase(self):
+        # Update current mode with a phrase from the current program
+        self.cad_editor.update_in_current_mode("speech_hotkey_sketchup_circle", "sketchup")
+        self.assertIn("speech_hotkey_sketchup_circle", self.cad_editor.current_events)
+
+    def test_update_in_current_mode_with_non_current_program_phrase(self):
+        # Update current mode with a phrase not from the current program
+        self.cad_editor.update_in_current_mode("speech_hotkey_tinkercad_align", "tinkercad")
+        self.assertNotIn("speech_hotkey_tinkercad_align", self.cad_editor.current_events)
+
+    def test_update_in_current_mode_with_universal_cad_command(self):
+        # Update current mode with a universal CAD command
+        self.cad_editor.update_in_current_mode("speech_hotkey_cad_select_all", "cad")
+        self.assertIn("speech_hotkey_cad_select_all", self.cad_editor.current_events)</code></pre>
+
+          <br>
+          <hr><br>
+          <h3>Performance Tests</h3>
+          <p>Performance testing is needed to evaluate the efficiency of a program across various systems. For this
+            purpose, two computers will be utilized in the testing process.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>PC</th>
+                <th>CPU</th>
+                <th>GPU</th>
+                <th>RAM</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>PC 1&nbsp;</td>
+                <td>
+                  <font color="#313030">Intel i7-10510U: 4.9Ghz, 4 cores</font><br>
+                </td>
+                <td>
+                  <font color="#313030">NVidia GeForce MX250 2GB</font>
+                </td>
+                <td>
+                  <font color="#313030">16GB DDR4 2133 MHz</font>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;PC 2</td>
+                <td>
+                  <font color="#313030">Intel i5-4590: 3.30 MHz, 4 cores</font>
+                </td>
+                <td>NVidia GeForce GTX 960 4GB&nbsp;</td>
+                <td>16GB DDR3 1600 MHz&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <h4>System Resource Utilisation Tests</h4>
+          <p>To accurately monitor the CPU and RAM usage of MotionInput, we have developed a Python script that records
+            the usage levels over a designated time period and generates a graphical representation of the data.</p>
+
+          <div class="image-holders">
+            <div class="image-holder">
+              <img class="pc1-img" src="assets/img/pc1_resource.png" alt="PC 1 Resource Utilisation">
+              <div class="image-caption">PC 1 Resource Utilisation</div>
+            </div>
+            <div class="image-holder">
+              <img class="pc2-img" src="assets/img/pc2_resource.png" alt="PC 2 Resource Utilisation">
+              <div class="image-caption">PC 2 Resource Utilisation</div>
+            </div>
+          </div>
+          <p>We evaluated the performance of MotionInput while being used in a CAD software and measured the CPU and
+            memory usage of the application over a 5-minute period. Both PCs used in the test had 16GB of RAM, and we
+            found that MotionInput used only 2% of the RAM on average, which is a positive result and indicates that it
+            is not memory-heavy. This makes it more compatible with lower memory machines.</p>
+          <br>
+          <p>We observed that PC 1, which has a 10th generation Intel i7 CPU, had lower CPU usage than PC 2, which has a
+            4th generation Intel i5 processor. The CPU usage of MotionInput on PC 1 ranged between 6-10%, which is ideal
+            as it minimizes the impact on the CAD software's performance. On PC 2, the CPU usage was between 15-20%,
+            which is acceptable. However, we did notice some momentary spikes to 30-35%, which could be a cause for
+            concern. Nonetheless, as they were only momentary, they should not be too much of an issue.</p>
+          <br>
+          <h4>FPS Tests</h4>
+          <p>A stable FPS is essential to prevent choppy visuals that can negatively impact user engagement. Thus we
+            decided to test the performance over a period of time to ensure that it is suitable. We set up two PCs side
+            by
+            side, PC 1 and PC 2, provided them with identical visual input, and recorded the FPS every second.</p>
+          <div class="image-holders">
+            <div class="image-holder">
+              <img class="pc1-img" src="assets/img/fps1.png" alt="PC 1 FPS">
+              <div class="image-caption">PC 1 Resource Utilisation</div>
+            </div>
+            <div class="image-holder">
+              <img class="pc2-img" src="assets/img/fps2.png" alt="PC 2 FPS">
+              <div class="image-caption">PC 2 Resource Utilisation</div>
+            </div>
+          </div>
+          <p>The test results demonstrated that PC 1, featuring a 10th generation i7 processor, performed admirably,
+            with peak FPS at 31 and a minimum of 24 FPS. Conversely, PC 2, equipped with a 4th generation i5 processor,
+            reached highs of around 29 FPS but dipped as low as 16 FPS. These peaks and troughs correspond to periods of
+            stillness and high movement in the visual input, respectively.</p>
+          <br>
+          <p>While PC 1 delivered optimal performance, PC 2 warrants further optimization. An FPS of 16 is barely
+            acceptable, as it results in noticeably choppy visuals, albeit still functional. These findings suggest that
+            systems with significantly outdated CPUs may struggle, although this represents a small market segment and
+            is not our primary concern. Given the opportunity in the future, we could explore ways to reduce FPS drops
+            during high movement, thereby enhancing compatibility with older devices.</p>
+
+          <br>
+          <h4>Start Time Tests</h4>
+          <p>In this test, we assess the duration between pressing the <code>OK</code> button in the settings MFS and
+            the
+            appearance of <code>MI3-3.2.exe</code> on the screen. Minimizing this time is crucial for enhancing user
+            experience and
+            ensuring smooth operation. We will measure the time it takes for MotionInput to open on a fresh boot every
+            time to make sure that the performance is not affected by caching. </p>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>PC 1</th>
+                <th>PC 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>8.53&nbsp;</td>
+                <td>11.34&nbsp;</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>&nbsp;9.83</td>
+                <td>&nbsp;12.14</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>&nbsp;8.44</td>
+                <td>&nbsp;12.48</td>
+              </tr>
+              <tr>
+                <td>&nbsp;4</td>
+                <td>9.27&nbsp;</td>
+                <td>10.34&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5</td>
+                <td>&nbsp;8.21</td>
+                <td>&nbsp;11.13</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Average</td>
+                <td>&nbsp;8.86</td>
+                <td>11.49&nbsp;</td>
+              </tr>
+            </tbody>
+          </table><br>
+          <p>The results from this test are subpar. Both PCs exhibit considerable delays in loading MotionInput, with PC
+            2 taking more than 10 seconds. This prolonged wait is quite noticeable and may lead users to believe that
+            they did not press <code>OK</code> or that the boot-up process is malfunctioning. In the future, addressing
+            this issue
+            should be a priority to enhance user experience and ensure seamless operation.</p>
+
+          <br>
+          <hr><br>
+          <h3>User Acceptance Tests</h3>
+          <p>User acceptance testing is crucial for assessing how well a software meets the expectations and
+            requirements of our target audience.
+          </p><br>
+          <h4>Speech Phrase Test</h4>
+          <p>The purpose of this test is to evaluate the capability of the custom dictionary functionality in
+            recognizing words. The
+            test is conducted with three participants who are asked to speak the words on a predetermined list.
+            We check to see if a word has been recognised by seeing the <code>partial_phrase</code> detected by the
+            <code>vosk</code> module. If the
+            word is accurately recognised for all three users, a tick mark is recorded to indicate a successful
+            recognition. This should allow us to see the performance boost from the custom dictionaries.
+          </p><br>
+
+          <p> Our 3 participants all have varying voices and accents to ensure it can undestand words under different
+            conditions.
+            We also repeating the test with background noise, as that is a significant challenge that the exisitng
+            MotionInput solution
+            struggled with. The specific background noise that was used for this test was called <a
+              href="https://www.youtube.com/watch?v=h2zkV-l_TbY">
+              Restaurant Ambience</a> and was played on an external speaker to simulate people talking around the user.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Speech Phrase</th>
+                <th>No Dictionary</th>
+                <th>No Dictionary + Background Noise</th>
+                <th>Custom Dictionary<br></th>
+                <th>Custom Dictionary + Background Noise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align: center;">&nbsp;help</td>
+                <td style="text-align: center;">✔️</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">&nbsp;zoom</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">save</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;">&nbsp;✔️&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">&nbsp;orbit</td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">&nbsp;circle</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">paint&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">extrude&nbsp;</td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">rectangle&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;">&nbsp;✔️&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">&nbsp;offset</td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;">&nbsp;✔️&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">&nbsp;start</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span></td>
+                <td style="text-align: center;">&nbsp;</td>
+                <td style="text-align: center;">&nbsp;✔️&nbsp;</td>
+                <td style="text-align: center;"><span style="font-style: normal; font-weight: 400;">✔️</span><br></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p>From this we can see that the Custom Dictionary feature is performing flawlessly. In ideal conditions, the
+            speech phrase recognition rate for our list without the dictionary was 70%, which dropped to 40% when the
+            volume was high. This is significantly lower than the Custom Dictionary's 100% word recognition rate, which
+            remains consistent regardless of the noise levels. However, it's important to note that even though all
+            speech phrases were recognised despite the background noise, a quiet environment is still preferable. This
+            is because the background noise could sometimes be mistakenly recognised as a word, leading to unintended
+            functions being executed.</p>
+          <br>
+          <h4>General User Acceptance Test</h4>
+          <p>To ensure that our solution meets the expectations of our users, we have designed a comprehensive list of
+            essential functions that our test users will complete. Each user will be asked to perform a series of tasks
+            and rate their experience based on a scale of 1 to 5. The tasks will be carried out using three different
+            mode: Hand Navigation, Nose Navigation + Speech, and Nose Navigation + Facial Switches. To evaluate the performance of our solution, we will
+            calculate the average score for each mode based on the ratings given by our users.</p>
+          <ol>
+            <li>Launch MotionInput with Correct Settings</li>
+            <li>Edit Speech Phrases</li>
+            <li>Change Dictionary</li>
+            <li>SketchUp
+              <ol>
+                <li>Create Shape</li>
+                <li>Push/Pull Shape</li>
+                <li>Rotate Object</li>
+                <li>Resize object</li>
+                <li>Orbit Camera</li>
+                <li>Move Camera</li>
+                <li>Zoom</li>
+                <li>Copy</li>
+                <li>Paste</li>
+                <li>Cut</li>
+                <li>Change Colour</li>
+              </ol>
+            </li>
+            <li>TinkerCAD
+              <ol>
+                <li>Add Object</li>
+                <li>Rotate Object</li>
+                <li>Resize Object</li>
+                <li>Orbit Camera</li>
+                <li>Zoom</li>
+                <li>Copy</li>
+                <li>Paste</li>
+                <li>Cut</li>
+                <li>Hide</li>
+                <li>Change Colour</li>
+              </ol>
+            </li>
+          </ol>
+          <br>
+          <table>
+            <thead>
+              <tr>
+                <th>Test</th>
+                <th>Hands</th>
+                <th>Nose + Speech</th>
+                <th>Nose + Facial Switches</th>
+                <th>General Comments</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>2&nbsp;</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>Very easy to switch dictionary to no dictionary mode. However when in no dictionary mode it is
+                  difficult to switch back due to the speech recognition not being accurate.&nbsp;</td>
+              </tr>
+              <tr>
+                <td>4.1</td>
+                <td>5</td>
+                <td>4</td>
+                <td>2.67</td>
+                <td>Facial switches hard to trigger. Facial switches also are falsely triggered when speaking.
+                  Reoccurring problem for rest of the tests.</td>
+              </tr>
+              <tr>
+                <td>4.2</td>
+                <td>&nbsp;5</td>
+                <td>3</td>
+                <td>&nbsp;2.67</td>
+                <td>-&nbsp;</td>
+              </tr>
+              <tr>
+                <td>4.3</td>
+                <td>4.33</td>
+                <td>3</td>
+                <td>2.33</td>
+                <td>Hitbox for rotation hard to hit. Reoccurring problem.</td>
+              </tr>
+              <tr>
+                <td>4.4</td>
+                <td>4.33</td>
+                <td>3</td>
+                <td>2.33</td>
+                <td>Hitbox for resizing hard to hit. Reoccurring problem.</td>
+              </tr>
+              <tr>
+                <td>4.5</td>
+                <td>&nbsp;5</td>
+                <td>4</td>
+                <td>3</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>4.6</td>
+                <td>&nbsp;5</td>
+                <td>3.67</td>
+                <td>3.33</td>
+                <td>MotionInput struggles with left movements in facial navigation mode. Reoccurring problem.</td>
+              </tr>
+              <tr>
+                <td>&nbsp;4.7</td>
+                <td>&nbsp;5</td>
+                <td>5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;4.8</td>
+                <td>&nbsp;5</td>
+                <td>5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;4.9</td>
+                <td>&nbsp;5</td>
+                <td>5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;4.10</td>
+                <td>&nbsp;5</td>
+                <td>5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;4.11</td>
+                <td>&nbsp;4</td>
+                <td>4&nbsp;</td>
+                <td>2.67</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.1</td>
+                <td>5</td>
+                <td>4.33</td>
+                <td>&nbsp;2.67</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2&nbsp;</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.3</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2&nbsp;</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.4</td>
+                <td>5</td>
+                <td>&nbsp;5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.5</td>
+                <td>5</td>
+                <td>&nbsp;5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.6</td>
+                <td>5</td>
+                <td>&nbsp;5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.7</td>
+                <td>5</td>
+                <td>&nbsp;5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.8</td>
+                <td>5</td>
+                <td>5</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>&nbsp;5.9</td>
+                <td>5</td>
+                <td>4.67&nbsp;</td>
+                <td>4</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>5.10&nbsp;</td>
+                <td>4.33</td>
+                <td>4&nbsp;</td>
+                <td>&nbsp;2.33</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p>Based on our user acceptance survey, we can conclude that the Hand Tracking Mode is the most effective and
+            user-friendly option among all modes. It is easy to learn and operate, with test users rating it between 4
+            and 5 and completing tasks with relative ease. The primary challenge encountered was the small hitboxes for
+            certain tasks, such as resizing, within the CAD software. Despite this issue, we are highly satisfied with
+            the performance of Hand Tracking Mode.</p><br>
+          <p>Our Nose Tracking with Speech Commands Mode also performs reasonably well, with most functionality executed
+            effortlessly, resulting in many 5 ratings. However, navigating the mouse with the nose proved challenging,
+            leading to some 3 ratings. The small hitbox problem worsens this issue. Our current MotionInput version has
+            difficulty interpreting leftward facial movements, which could be addressed in the future by transitioning
+            to the MediaPipe facial recognition system, which offers smoother performance.</p>
+          <br>
+          <p>In contrast, the Nose Tracking with Facial Switches Mode received many 2 ratings, indicating poor
+            performance. The nose movement is difficult to control, and the facial switches are not consistently
+            triggered. Moreover, speech commands, which control much of the program's functionality, can inadvertently
+            activate facial switch commands due to facial movement while speaking. This mode would also benefit from an
+            improved facial recognition algorithm. Although this mode is functional, we only recommend it when no other
+            options are available for the user.</p>
+          <br>
+          <p>Despite the challenges faced with the Facial Switches Mode, our users generally enjoyed the experience and
+            provided positive feedback overall. These insights will enable us to refine and optimize our software as
+            well.</p>
+
+
+    </section>
 
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
 
-    <div class="container">
-       
 
-      </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
-  <!-- End Footer -->
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center
+        justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
@@ -256,7 +740,10 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/prism.js"></script>
   <script src="assets/js/main.js"></script>
+
+
 
 </body>
 
