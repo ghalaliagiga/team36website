@@ -313,7 +313,7 @@ table th, table td {
 
 table th {
   background-color: #7698b5;
-  color: #fff;
+  color: black;
 }
 
 table tr:nth-child(even) {
